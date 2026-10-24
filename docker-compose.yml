@@ -11,7 +11,7 @@ services:
       - ./postgres-data:/var/lib/postgresql/data
 
   app:
-    image: golang:1.22
+    image: golang:1.27.3
     command:
       - go
       - run
